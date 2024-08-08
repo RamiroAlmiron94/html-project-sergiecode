@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="Escudo_Talleres_Icon.png" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/styles.css">
+  <script src="https://kit.fontawesome.com/439b2b43fc.js" crossorigin="anonymous"></script>
+  <title>Club Talleres De Cba / Proyecto Final Página Web</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <!-- Logo del sitio -->
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/img/Logo_Nav_Talleres.png" alt="Logo del Club Talleres" width="40" height="40">
+        </a>
+
+        <!-- Botón para el menú de navegación en pantallas pequeñas -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Enlaces de navegación -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Inicio
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="index.html#la_historia">Nuestra Historia</a></li>
+                <li><a class="dropdown-item" href="index.html#la_camiseta">La Camiseta</a></li>
+                <li><a class="dropdown-item" href="index.html#la_boutique">La Boutique</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="logros.html">Logros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Audiovisuales</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <table class="table table-bordered tabla-logros">
+    <thead>
+      <tr>
+        <th>Año <i class="fa-solid fa-calendar-days"></i></th>
+        <th>Competición <i class="fa-solid fa-trophy"></i></th>
+        <th>Logro <i class="fa-solid fa-medal"></i></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1999</td>
+        <td class="competencia">
+          <img src="assets/img/Logo_Copa_Conmebol.png" alt="Logo Copa Conmebol" title="Copa Conmebol 1999" width="51"
+            height="40">
+        <td>Campeón <img
+            src="data:image/png;base64,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"
+            style="height: 25px; width: 25px;">
+        </td>
+      </tr>
+      <tr>
+        <td>2016</td>
+        <td class="competencia">
+          <img src="assets/img/Logo_AFA_Primera_B_Nacional.png" alt="Logo Primera B Nacional"
+            title="Campeonato de Primera B Nacional 2016" width="98" height="40">
+        </td>
+        <td>Campeón <img
+            src="data:image/png;base64,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"
+            style="height: 25px; width: 25px;">
+        </td>
+      </tr>
+      <tr>
+        <td>2017 / 2018</td>
+        <td class="competencia">
+          <img src="assets/img/Logo_AFA_SuperLiga_Argentina.png" alt="Logo Superliga Argentina"
+            title="Campeonato de Primera División «Superliga» 2017 / 2018" width="40" height="40">
+        </td>
+        <td>
+          Clasificado a la fase 2 de la Copa Libertadores 2019.</td>
+      </tr>
+      <tr>
+        <td>2019</td>
+        <td class="competencia">
+          <img src="assets/img/Logo_Copa_Conmebol_Libertadores.png" alt="Logo Copa Conmebol Libertadores"
+            title="Copa Conmebol Libertadores 2019" width="187" height="40">
+        </td>
+        <td>
+          Eliminado en fase 3 de la Copa Libertadores 2019.</td>
+      </tr>
+      <tr>
+        <td>2020</td>
+        <td class="competencia">
+          <img src="assets/img/Logo_Copa_Argentina_AXION_Energy.png" alt="Copa Argentina «AXION Energy»"
+            title="Copa Argentina «AXION Energy» 2020" width="84" height="40">
+        </td>
+        <td>Subcampeón <img
+            src="data:image/png;base64,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"
+            style="height: 25px; width: 25px;"></td>
+      </tr>
+      <tr>
+        <td>2021</td>
+        <td class="competencia">
+          <img src="assets/img/Logo_AFA_Torneo_2021.png" alt="Logo Torneo AFA 2021"
+            title="Campeonato de Primera División «Torneo Socios.com» 2021" width="157" height="40">
+        </td>
+        <td>
+          Clasificado a la fase de grupos de la Copa Libertadores 2022.</td>
+      </tr>
+      <tr>
+        <td>2022</td>
+        <td class="competencia">
+          <img src="assets/img/Logo_Copa_Conmebol_Libertadores.png" alt="Logo Copa Conmebol Libertadores"
+            title="Copa Conmebol Libertadores 2022" width="187" height="40">
+        </td>
+        <td>
+          Eliminado en cuartos de final de la Copa Libertadores 2022.</td>
+      </tr>
+      <tr>
+        <td>2022</td>
+        <td class="competencia">
+          <img src="assets/img/Logo_Copa_Argentina_AXION_Energy.png" alt="Copa Argentina «AXION Energy»"
+            title="Copa Argentina «AXION Energy» 2022" width="84" height="40">
+        </td>
+        <td>Subcampeón <img
+            src="data:image/png;base64,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"
+            style="height: 25px; width: 25px;"></td>
+      </tr>
+    </tbody>
+  </table>
+  <br>
+  <p class="fuente-info-tabla-talleres"><em>Fuente: <a href="https://es.wikipedia.org/wiki/Club_Atl%C3%A9tico_Talleres"
+        target="_blank">Wikipedia - Club
+        Atlético Talleres</a> / <a href="https://peslogos.blogspot.com/" target="_blank">PES Logos</a> / </a> icon by <a
+        href="https://icons8.com">Icons8</a>
+    </em></p>
+
+
+  <div class="card text-bg-dark card-logros-talleres" style="max-width: 55%; position: relative;">
+    <img src="assets/img/Imagen_Talleres_07.jpg" class="card-img" alt="...">
+    <div class="card-img-overlay">
+      <h5 class="card-title">Talleres Campeón Copa Conmebol 1999</h5>
+      <p class="card-text">El 8 de diciembre de 1999, Talleres se consagró campeón de la Copa Conmebol tras vencer en la
+        final a Sportivo Alagoano en el Estadio Chateau Carreras (actualmente Mario Alberto Kempes) con un resultado de
+        2-0, logrando un resultado global de 4-2. Este hecho marcó un hito en la historia del club al lograr su primer
+        título internacional.</p>
+      <img src="assets/img/Logo_Trofeo_Copa_Conmebol.png" alt="Trofeo Copa Conmebol" class="img-fluid logo-trofeo">
+    </div>
+  </div>
+  <br>
+
+  <div class="card text-bg-dark card-logros-talleres" style="max-width: 55%; position: relative;">
+    <img src="assets/img/Imagen_Talleres_04.jpg" class="card-img" alt="...">
+    <div class="card-img-overlay">
+      <h5 class="card-title">Talleres Regresa a los Torneos Internacionales</h5>
+      <p class="card-text">En el año 2019, después de una buena temporada en Primera División y logrando un quinto
+        puesto, Talleres clasificó a la fase 2 de la Copa Libertadores de América. Llegó hasta la fase 3, donde fue
+        eliminado por el Club Deportivo Palestino de Chile con un resultado global de 3 a 4.</p>
+      <img src="assets/img/Logo_CONMEBOL_Libertadores.png" alt="Trofeo Copa Conmebol" class="img-fluid logo-trofeo">
+    </div>
+  </div>
+
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <!-- Contacto -->
+          <h5>Contacto</h5>
+          <p>
+            <a href="mailto:ramirogalmiron@gmail.com" target="_blank">
+              <i class="fa-solid fa-square-envelope fa-fade fa-lg" style="color: #040D2D;"></i> Email:
+              ramirogalmiron@gmail.com
+            </a>
+          </p>
+          <p>
+            <a href="https://wa.me/543518185536" target="_blank">
+              <i class="fa-brands fa-square-whatsapp fa-fade fa-lg" style="color: #25d366;"></i> WhatsApp: 3518185536
+            </a>
+          </p>
+          <br>
+          <!-- Redes Sociales -->
+          <h5>Redes Sociales</h5>
+          <p>
+            <a href="https://github.com/RamiroAlmiron94/" target="_blank">
+              <i class="fa-brands fa-square-github fa-fade fa-lg" style="color: #171515;"></i> GitHub: RamiroAlmiron94
+            </a>
+          </p>
+          <p>
+            <a href="https://www.linkedin.com/in/RamiroGabrielAlmiron1994/" target="_blank">
+              <i class="fa-brands fa-linkedin fa-fade fa-lg" style="color: #0e76a8;"></i> LinkedIn:
+              RamiroGabrielAlmiron1994
+            </a>
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 text-center">
+          <p class="mt-4">&copy; 2024 Ramiro Almirón. Derechos Reservados.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</html>

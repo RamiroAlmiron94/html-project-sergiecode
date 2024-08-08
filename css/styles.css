@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+.navbar {
+    background-color: #040D2D;
+    padding: 5px 30px;
+}
+
+.navbar-nav .nav-link {
+    color: white
+  }
+
+
+
+.card_talleres_uno,
+.card_talleres_tres {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.card_talleres_dos {
+    margin-top: 50px;
+    margin-left: 285px;
+}
+
+
+#fuente-foto-historia {
+    font-style: italic; /* Estilo para el pie de foto */
+    font-size: 0.875rem; /* Tamaño de fuente más pequeño */
+    color: #6c757d; /* Color de texto más claro para el pie de foto */
+    text-align: center; /* Centra el pie de foto */
+    margin-top: 10px;
+}
+
+
+.fuente-info-talleres {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 10px;
+    font-style: italic;
+  }
+
+
+.img-foto-card {
+    border-radius: 10px; /* Ajusta el valor para cambiar el redondeo */
+    box-shadow: 0px 4px 8px #040D2D;
+}
+
+
+.custom-bg-historia {
+    background-color: rgba(226, 225, 216, 0.3); /* Cambia este valor a tu tono de azul preferido */
+    color: white; /* Asegúrate de que el texto sea legible en el fondo azul */
+}
+
+
+
+.titulo-card-talleres, 
+.texto-card-talleres,
+.titulo-maps-talleres {
+    font-family: "Abel", sans-serif;
+    color: #040D2D;
+    font-size: 20px;
+}
+
+.img-card-talleres {
+    padding: 7px;
+    margin: 15px;
+}
+
+
+
+/* Estilos Footer*/
+
+
+.footer {
+  margin-top: 150px;
+  padding: 30px;
+  background-color: #E2E1D8;  
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.footer a {
+    color: #040D2D;
+    text-decoration: none;
+    display: block;
+}
+
+
+.footer a:hover {
+    color: #0947B6;
+}
+
+
+
+.carousel-caption {
+    left: 12%; /* Ajusta la posición horizontal según tus necesidades */
+    bottom: 28%; /* Ajusta la posición vertical según tus necesidades */
+}
+  
+  .titulo_carrusel {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 4.5rem; /* Aumenta el tamaño de la fuente */
+    color: white; /* Asegúrate de que el texto sea visible sobre las imágenes */
+    text-shadow: 2px 2px 4px black;
+    -webkit-text-stroke: 1px #040D2D;
+}
+
+
+/* Estilos generales de la tabla */
+.table {
+    width: 75%;
+    margin: auto;
+    border-collapse: collapse;
+    border-radius: 10px; /* Bordes redondeados de la tabla */
+    overflow: hidden; /* Asegura que los bordes de las celdas no sobresalgan de la tabla */
+    font-family: "Kanit", sans-serif;
+    margin-top: 50px;
+}
+
+.table thead th, .table tbody td {
+    padding: 10px;
+    border: 1px solid #ddd; /* Bordes de las celdas */
+    text-align: left;
+}
+
+/* Colores para las columnas en los encabezados */
+.table thead th {
+
+    background-color: #040D2D;
+    color: white; /* Aplica el color blanco a todos los encabezados de columna */
+}
+
+
+
+.tabla-logros th,
+.tabla-logros td {
+    vertical-align: middle;
+}
+
+.tabla-logros th {
+    text-align: left;
+}
+
+
+.tabla-logros td.competencia {
+    text-align: center;
+}
+
+
+.fuente-info-tabla-talleres {
+    margin-left: 13%;
+    font-size: 0.9rem;
+    color: #666;
+    font-style: italic;
+}
+
+.card-logros-talleres {
+    box-shadow: 0px 5px 9px #040D2D;
+}
+
+
+.logo-trofeo {
+    position: absolute;
+    bottom: 10px;
+    right: 25px;
+    max-width: 40px;
+    height: auto;
+}
