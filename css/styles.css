@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap');
 
 
 .navbar {
@@ -113,7 +114,7 @@
 
 /* Estilos generales de la tabla */
 .table {
-    width: 75%;
+    width: 65%;
     margin: auto;
     border-collapse: collapse;
     border-radius: 10px; /* Bordes redondeados de la tabla */
@@ -168,6 +169,12 @@
     position: absolute;
     bottom: 10px;
     right: 25px;
-    max-width: 40px;
-    height: auto;
+    max-width: 18px;
+}
+
+.titulo-logros {
+    font-family: "Agdasima", sans-serif;
+    font-size: 60px;
+    color: #040D2D;
+    text-shadow: 3px 3px 5px #E2E1D8;
 }
